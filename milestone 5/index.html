@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="input">
+      <div class="title">
+        <h1 font-weight="bold">
+          <input class="input" type="text" name="name" placeholder="Enter Name in capital letters"/>
+        </h1>
+        <h2><input class="input" name="designation" type="text" placeholder="Enter Designation" /></h2>
+        <p>
+          <input class="input"
+            type="text"
+            name="mobile"
+            placeholder="Enter your mobile number"
+          /><b> . </b
+          ><input class="input"
+            type="text"
+            name="email"
+            placeholder="Enter your Email address"
+          /><b> . </b><input class="input" type="url" name="website" placeholder="Enter linked-in url" /><b> . </b><input type="url" name="website1" placeholder="Enter github url" />
+        </p>
+        </p>
+        <br />
+        <h3>Summary</h3>
+        <hr size="4" color="black" />
+      </div>
+
+      <div class="title">
+        <h4>
+          <textarea class="input" name="summary" rows="5" cols="150" placeholder="Enter Summary of 3-4 lines."></textarea>
+        </h4>
+        <br />
+        <h3>Experience</h3>
+        <hr size="4" color="black" />
+      </div>
+
+      <div class="title">
+      
+        <h4 id="left">
+          <textarea class="input" name="Experience" rows="20" cols="100" contenteditable="true" placeholder="Enter Experience in an ordered list."></textarea>
+        </h4>
+        
+        <br />
+
+        <br />
+        <h3>Education</h3>
+        <hr size="4" color="black" />
+      </div>
+
+      <div class="title">
+      
+        <h4 id="left">
+          <textarea class="input" name="Education" rows="8" cols="100" contenteditable="true" placeholder="Enter Education in an ordered list."></textarea>
+        </h4>
+        
+        <br />
+        <h3>Certifications</h3>
+        <hr size="4" color="black" />
+      </div>
+
+      <div class="title">
+        <h4 id="left">
+          <textarea class="input" name="Certifications" rows="8" cols="100" placeholder="Enter Certifications in an ordered list."></textarea>
+        </h4>
+        <br />
+        <h3>Skills</h3>
+        <hr size="4" color="black" />
+      </div>
+
+      <div class="title" id="mode">
+        <h4 id="left">
+          <textarea class="input" name="Skills" rows="15" cols="50" placeholder="Enter Skills in an ordered list."></textarea>
+        </h4>
+      </div>
+      <div id="generate">
+      <button type="submit"><h3><b>Generate Resume</b></h3></button>
+      </div>
+    </form>
+    <br>
+    <div id="ready">
+
+   </div> 
+    <script src="script.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </body>
+</html>

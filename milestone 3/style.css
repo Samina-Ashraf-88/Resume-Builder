@@ -1,0 +1,17 @@
+body{
+background-color: white;
+font-family:'Times New Roman';
+}
+
+.title{
+text-align: center;
+}
+
+#left{
+text-align: left;
+}
+
+#generate{
+font-family:'Times New Roman';
+text-align: center;
+}
